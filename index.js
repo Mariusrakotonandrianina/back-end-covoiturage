@@ -19,11 +19,7 @@ const connect = async () => {
 };
 
 const corsOptions = {
-  origin: [
-    "http://localhost:3004",
-    "http://localhost:3005",
-    "http://localhost:3003",
-  ],
+  origin: [],
   methods: "GET, HEAD, PUT, PATCH, POST, DELETE",
   Credential: true,
   optionsSuccessStatus: 204,
